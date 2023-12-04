@@ -43,6 +43,7 @@ lsp.preset('recommended')
 lsp.setup()
 
 require'lspconfig'.rust_analyzer.setup({})
+require('lspconfig').clangd.setup({})
 
 -- for lualine
 require('lualine').setup({
